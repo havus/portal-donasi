@@ -25,16 +25,46 @@ body {
 }
 
 /* ================= Carousel ================= */
-
-.carousel-item {
-    height: 400px;
-    overflow: hidden;
+@media only screen and (max-width: 600px) {
+    #carousel {
+        display: none;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .carousel-item {
+        height: 100%;
+    }
+    .carousel-inner {
+        height: 300px;
+    }
+    .carousel-item img {
+        margin-top: -100px;
+        width: 100%;
+    }
 }
 
-.carousel-item img {
-    margin-top: -350px;
-    width: 100%;
+@media only screen and (min-width: 769px) {
+    .carousel-inner {
+        height: 400px;
+        /* overflow: hidden; */
+    }
+    .carousel-item img {
+        margin-top: -150px;
+    }
 }
+
+@media only screen and (min-width: 992px) {
+    .carousel-item img {
+        margin-top: -250px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .carousel-item img {
+        margin-top: -350px;
+    }
+}
+
 
 
 /* ================= MAIN ================= */
