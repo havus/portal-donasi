@@ -43,7 +43,7 @@ body {
     }
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 768px) {
     .carousel-inner {
         height: 400px;
         /* overflow: hidden; */
