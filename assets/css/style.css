@@ -33,6 +33,7 @@ body {
 
 .carousel-item img {
     margin-top: -350px;
+    width: 100%;
 }
 
 
