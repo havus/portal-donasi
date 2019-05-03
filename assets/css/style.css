@@ -30,6 +30,7 @@ body {
         display: none;
     }
 }
+
 @media only screen and (min-width: 600px) {
     .carousel-item {
         height: 100%;
@@ -69,12 +70,16 @@ body {
 
 /* ================= MAIN ================= */
 #main {
-    margin-top: 50px;
+    margin-top: 30px;
     overflow: hidden;
 }
 
+.row {
+    margin: 0;
+}
+
 .case-member {
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .member {
